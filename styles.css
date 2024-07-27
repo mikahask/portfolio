@@ -1,0 +1,13 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*body styles*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: normal;
+    background-color:gold;
+    color:darkred;
+    padding: 20px;
+}
