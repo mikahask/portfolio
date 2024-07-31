@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome!</title>
-        <!-- Link to external CSS -->
-        <link rel="stylesheet" href="styles.css">
-        <!-- Link to external JavaScript -->
-        <script defer src="script.js"></script>
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="colored-box">
+            <h1>Hello! I'm Mikaylla!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav> <!-- Close nav tag here -->
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <h2>About Me</h2>
             <div class="colored-box">
-                <h1>Welcome to My Website</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav> <!-- Close nav tag here -->
+                <p>Hello! My name is Mikaylla Haskins. I am a graduate from The University of Delaware with a B.S. in Computer Science.<br><br> Coding Languages: </p>
+                <div class="coding-languages">
+                    <img src="images/clanguage.png" alt="Language 1" class="language-icon">
+                    <img src="images/plus.png" alt="Language 2" class="language-icon">
+                </div>
             </div>
-        </header>
-        
-        <main>
-            <section>
-                <h2>About Me</h2>
-                <div class="colored-box">
-                    <p>Test</p>
-                    <p>This is a paragraph about me.</p>
-                </div>
-            </section>
-            <section>
-                <h2>My Projects</h2>
-                <div class="colored-box">
-                    <p>This is a paragraph about my projects.</p> 
-                </div>
-            </section>
-        </main>
-        
-        <footer>
-            <p>&copy; 2024 Mikaylla Haskins</p>
-        </footer>
-    </body>
+        </section>
+        <section>
+            <h2>My Projects</h2>
+            <div class="colored-box">
+                <p>Worked with a team to develop a <a href="https://aparnaroy.github.io/Team15-PlanetGarden/">mock gardening shopping website</a> which the user is able to browse and select items to add to their cart.</p>
+            </div>
+            <div class="colored-box">
+                <p>Worked with a team to develop a webpage which keeps track of and graphs energy and resource usage from buildings throughout the University of Delaware. Numbers collected from usage data are converted into graphs for easier visualization for the user.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Mikaylla Haskins</p>
+    </footer>
+</body>
 </html>

@@ -3,16 +3,14 @@ body, h1, h2, p, ul {
     padding: 0;
 }
 
-/*body styles*/
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: normal;
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
     padding: 20px;
 }
 
-/*Header Styles*/
 header {
     background: darkred;
     color: #fff;
@@ -30,6 +28,11 @@ header h1 {
     padding: 20px;
     margin: 10px 0;
     color: white; 
+    margin-bottom: 20px;
+}
+
+.colored-box p {
+    margin-bottom: 20px;
 }
 
 header nav ul {
@@ -51,7 +54,6 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main content styles */
 main {
     margin: 20px 0;
 }
@@ -67,7 +69,6 @@ main h2 {
     margin-bottom: 10px;
 }
 
-/* Footer styles */
 footer {
     background: black;
     color: #fff;
@@ -76,4 +77,12 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.language-icon {
+    width: 50px; /* Set the width of the icon */
+    height: 50px; /* Set the height of the icon */
+    margin-right: 10px; /* Space between icons */
+    vertical-align: middle; /* Align icons with text */
+    object-fit: contain; /* Maintain aspect ratio */
 }
